@@ -2,8 +2,7 @@
 <renderingStyle name="Topo" depends="" defaultColor="#ffffff" version="1">
 
 	<renderingProperty attr="appMode" name="Rendering mode" description="Map optimization for respective User Profile" type="string" possibleValues="browse map,car,bicycle,pedestrian"/>
-	<renderingProperty attr="baseAppMode" name="Default Rendering mode" description="Map optimization for respective User Profile based on base (parent) profile"
-		type="string" possibleValues="default, car, bicycle, pedestrian, public_transport, boat, ski"/>
+	<renderingProperty attr="baseAppMode" name="Default Rendering mode" description="Map optimization for respective User Profile based on base (parent) profile" type="string" possibleValues="default, car, bicycle, pedestrian, public_transport, boat, ski"/>
 	<renderingProperty attr="transportStops" name="Transport stops" description="Public transport stops" type="boolean" possibleValues="" category="transport"/>
 	<renderingProperty attr="contourLines" name="Show contour lines" description="Select minimum zoom level to display in map if available. Separate contour file may be needed." type="string" possibleValues="disabled,16,15,14,13,12,11" defaultValueDescription="default13" category="details"/>
 	<renderingProperty attr="horseRoutes" name="Horse routes" description="Horse routes" type="boolean" possibleValues="" category="routes"/>
@@ -11,35 +10,21 @@
 	<renderingProperty attr="showCycleRoutes" name="Show cycle routes" description="Show cycle routes (*cn_networks) in bicycle mode" type="boolean" possibleValues="" category="routes"/>
 	<renderingProperty attr="showCycleNodeNetworkRoutes" name="Show node network cycle routes" description="Show node network cycle routes in bicycle mode" type="boolean" possibleValues="" category="routes"/>
 	<renderingProperty attr="showMtbRoutes" name="Show MTB routes" description="Show mountain bike routes (*cn_networks) in bicycle mode" type="boolean" possibleValues="" category="routes"/>
-	<renderingProperty attr="alpineHiking" name="Alpine hiking view" description="Render paths according to SAC scale"
-		type="boolean" possibleValues="" category="routes"/>
-	<renderingProperty attr="lessDetailed" name="Less detailed" description="Less details on map" type="boolean" possibleValues=""
-		category="details"/>
-	<renderingProperty attr="surfaceIntegrity" name="Road surface integrity" description="Surface integral rendering" type="boolean" possibleValues=""
-		category="details"/>
-	<renderingProperty attr="OSMMapperAssistant" name="OSM mapper assistant" description="Show fixme and other features to help OSM mappers"
-		type="boolean" possibleValues="" category="details"/>
-	<renderingProperty attr="streetLighting" name="Street lighting" description="Show street lighting"
-		type="boolean" possibleValues="" category="details"/>
-    <renderingProperty attr="horseScale" name="Difficulty of horse trails" description="Render paths according to difficulty of horse trails"
-		type="boolean" possibleValues="" category="details"/>
-	<renderingProperty attr="hideUnderground" name="Hide underground objects" description="Hide underground objects"
-		type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="alpineHiking" name="Alpine hiking view" description="Render paths according to SAC scale" type="boolean" possibleValues="" category="routes"/>
+	<renderingProperty attr="lessDetailed" name="Less detailed" description="Less details on map" type="boolean" possibleValues="" category="details"/>
+	<renderingProperty attr="surfaceIntegrity" name="Road surface integrity" description="Surface integral rendering" type="boolean" possibleValues="" category="details"/>
+	<renderingProperty attr="OSMMapperAssistant" name="OSM mapper assistant" description="Show fixme and other features to help OSM mappers" type="boolean" possibleValues="" category="details"/>
+	<renderingProperty attr="streetLighting" name="Street lighting" description="Show street lighting" type="boolean" possibleValues="" category="details"/>
+	<renderingProperty attr="horseScale" name="Difficulty of horse trails" description="Render paths according to difficulty of horse trails" type="boolean" possibleValues="" category="details"/>
+	<renderingProperty attr="hideUnderground" name="Hide underground objects" description="Hide underground objects" type="boolean" possibleValues="" category="hide"/>
 	<renderingProperty attr="hideAccess" name="Hide access restrictions" description="Hide access type" type="boolean" possibleValues="" category="hide"/>
-	<renderingProperty attr="hideBuildings" name="Hide buildings" description="Hide buildings"
-		type="boolean" possibleValues="" category="hide"/>
-	<renderingProperty attr="hideWaterPolygons" name="Hide water" description="Hide water polygons"
-		type="boolean" possibleValues="" category="hide"/>
-	<renderingProperty attr="noPolygons" name="Hide polygons" description="Make all areal land features on map transparent"
-		type="boolean" possibleValues="" category="hide"/>
-	<renderingProperty attr="noAdminboundaries" name="Hide boundaries" description="Suppress display of admin levels 5-9"
-		type="boolean" possibleValues="" category="hide"/>
-	<renderingProperty attr="hideMilitaryAreas" name="Hide military areas" description="Hide military areas"
-		type="boolean" possibleValues="" category="hide"/>
-	<renderingProperty attr="currentTrackColor" name="Current GPX color" description="Color of the currently recording track"
-		type="string" possibleValues="red,orange,lightblue,blue,purple,translucent_red,translucent_orange,translucent_lightblue,translucent_blue,translucent_purple" defaultValueDescription="default"/>
-	<renderingProperty attr="currentTrackWidth" name="Current GPX width" description="Width of the currently recording track"
-		type="string" possibleValues="thin,medium,bold" defaultValueDescription="default"/>
+	<renderingProperty attr="hideBuildings" name="Hide buildings" description="Hide buildings" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="hideWaterPolygons" name="Hide water" description="Hide water polygons" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="noPolygons" name="Hide polygons" description="Make all areal land features on map transparent" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="noAdminboundaries" name="Hide boundaries" description="Suppress display of admin levels 5-9" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="hideMilitaryAreas" name="Hide military areas" description="Hide military areas" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="currentTrackColor" name="Current GPX color" description="Color of the currently recording track" type="string" possibleValues="red,orange,lightblue,blue,purple,translucent_red,translucent_orange,translucent_lightblue,translucent_blue,translucent_purple" defaultValueDescription="default"/>
+	<renderingProperty attr="currentTrackWidth" name="Current GPX width" description="Width of the currently recording track" type="string" possibleValues="thin,medium,bold" defaultValueDescription="default"/>
 	<renderingProperty attr="contourColorScheme" name="Contour lines color scheme" description="Contour lines color scheme" type="string" possibleValues="white,yellow,green,light_brown,brown,dark_brown,red" defaultValueDescription="default"/>
 	<renderingProperty attr="contourWidth" name="Contour lines width" description="Contour lines width" type="string" possibleValues="thin,medium,thick" defaultValueDescription="default"/>
 	<renderingProperty attr="contourDensity" name="Contour lines density" description="Contour lines density" type="string" possibleValues="low,medium_w,high" defaultValueDescription="default"/>
@@ -71,7 +56,7 @@
 	</renderingAttribute>
 
 	<renderingAttribute name="shadowRendering">
-	<!-- 0 - no shadow, 1 - one step, 2 - blur shadow, 3 - solid shadow -->
+		<!-- 0 - no shadow, 1 - one step, 2 - blur shadow, 3 - solid shadow -->
 		<!-- next line ensures bridges stand out ok -->
 		<case minzoom="14" nightMode="false" attrIntValue="3" shadowColor="#969696"/>
 		<case minzoom="14" attrIntValue="3" shadowColor="#464646"/>
@@ -135,19 +120,19 @@
 		<case attrIntValue="1"/>
 	</renderingAttribute>
 	<renderingAttribute name="polygonMinSizeToDisplay">
-	<!-- Minimum polygon size in pixels -->
+		<!-- Minimum polygon size in pixels -->
 		<case lessDetailed="false" attrIntValue="10"/>
 		<case attrIntValue="75"/>
 	</renderingAttribute>
 
 	<renderingAttribute name="roadDensityZoomTile">
-	<!-- 8 (=1 pixel tile) down to 0 (=large tile) -->
+		<!-- 8 (=1 pixel tile) down to 0 (=large tile) -->
 		<case minzoom="15" attrIntValue="4"/>
 		<case attrIntValue="3"/>
 	</renderingAttribute>
 
 	<renderingAttribute name="roadsDensityLimitPerTile">
-	<!-- Number of roads to display per tile -->
+		<!-- Number of roads to display per tile -->
 		<case lessDetailed="false" attrIntValue="55"/>
 		<case baseAppMode="pedestrian" attrIntValue="40"/>
 		<case baseAppMode="bicycle" attrIntValue="40"/>
@@ -291,7 +276,8 @@
 	<renderingAttribute name="horseScaleColorHigh">
 		<case attrColorValue="#E94D00"/>
 	</renderingAttribute>
-	<renderingAttribute name="routeInfo_horse_scale"> <!-- Used in route details info -->
+	<renderingAttribute name="routeInfo_horse_scale">
+		<!-- Used in route details info -->
 		<case tag="horse_scale" value="common" attrColorValue="$horseScaleColorLow" attrStringValue="horse_scale_common"/>
 		<case tag="horse_scale" value="demanding" attrColorValue="#007FD1" attrStringValue="horse_scale_demanding"/>
 		<case tag="horse_scale" value="difficult" attrColorValue="#0074BF" attrStringValue="horse_scale_difficult"/>
@@ -300,7 +286,7 @@
 		<case tag="horse_scale" value="impossible" attrColorValue="$horseScaleColorHigh" attrStringValue="horse_scale_impossible"/>
 	</renderingAttribute>
 
-<!-- Motorway -->
+	<!-- Motorway -->
 	<renderingAttribute name="motorwayRoadColor">
 		<case surfaceIntegrity="true" minzoom="12" attrColorValue="$highwaySurfaceIntegrityColor"/>
 		<case additional="bridge=yes" attrColorValue="$bridgeColor"/>
@@ -319,7 +305,7 @@
 		<apply_if maxzoom="6" attrColorValue="#666666"/>
 	</renderingAttribute>
 
-<!-- Trunk  -->
+	<!-- Trunk  -->
 	<renderingAttribute name="trunkRoadColor">
 		<case surfaceIntegrity="true" minzoom="12" attrColorValue="$highwaySurfaceIntegrityColor"/>
 		<case additional="bridge=yes" attrColorValue="$bridgeColor"/>
@@ -337,7 +323,7 @@
 		<apply_if additional="ice_road=yes" attrColorValue="#aa458FFF"/>
 		<apply_if additional="construction=yes" attrColorValue="$null"/>
 	</renderingAttribute>
-<!-- Primary  -->
+	<!-- Primary  -->
 	<renderingAttribute name="primaryRoadColor">
 		<case surfaceIntegrity="true" minzoom="12" attrColorValue="$highwaySurfaceIntegrityColor"/>
 		<case additional="bridge=yes" attrColorValue="$bridgeColor"/>
@@ -353,7 +339,7 @@
 		<apply_if additional="winter_road=yes" attrColorValue="#aa458FFF"/>
 		<apply_if additional="ice_road=yes" attrColorValue="#aa458FFF"/>
 	</renderingAttribute>
-<!-- Secondary  -->
+	<!-- Secondary  -->
 	<renderingAttribute name="secondaryRoadColor">
 		<case surfaceIntegrity="true" minzoom="12" attrColorValue="$highwaySurfaceIntegrityColor"/>
 		<case additional="bridge=yes" attrColorValue="$bridgeColor"/>
@@ -369,7 +355,7 @@
 		<apply_if additional="winter_road=yes" attrColorValue="#aa458FFF"/>
 		<apply_if additional="ice_road=yes" attrColorValue="#aa458FFF"/>
 	</renderingAttribute>
-<!-- Tertiary  -->
+	<!-- Tertiary  -->
 	<renderingAttribute name="tertiaryRoadColor">
 		<case surfaceIntegrity="true" minzoom="12" attrColorValue="$highwaySurfaceIntegrityColor"/>
 		<case additional="bridge=yes" attrColorValue="$bridgeColor"/>
@@ -444,7 +430,7 @@
 	<renderingAttribute name="pedestrianRoadShadowColor">
 		<case baseAppMode="car" attrColorValue="#cccccc"/>
 		<case attrColorValue="#7B6EDE"/>
-<!--		<apply_if baseAppMode="pedestrian" attrColorValue="#004AC3"/>-->
+		<!--		<apply_if baseAppMode="pedestrian" attrColorValue="#004AC3"/>-->
 	</renderingAttribute>
 	<renderingAttribute name="serviceRoadColor">
 		<case surfaceIntegrity="true" minzoom="12" attrColorValue="$highwaySurfaceIntegrityColor"/>
@@ -665,7 +651,7 @@
 		<case nightMode="true" attrColorValue="#0C335C"/>
 		<case attrColorValue="#7ad1ed"/>
 	</renderingAttribute>
-<!--	<renderingAttribute name="waterStrokeColor">
+	<!--	<renderingAttribute name="waterStrokeColor">
 		<case nightMode="true" attrColorValue="#511db8"/>
 		<case attrColorValue="#4580cf"/>
 	</renderingAttribute>-->
@@ -780,7 +766,7 @@
 		<case nightMode="true" attrColorValue="#292929"/>
 		<case attrColorValue="#BBBBBB"/>
 	</renderingAttribute>
-	
+
 	<renderingAttribute name="landuseResidentialRuralColor">
 		<case maxzoom="14" attrColorValue="#666666">
 			<apply_if nightMode="true" attrColorValue="#1A1A1A"/>
@@ -1063,7 +1049,7 @@
 		<case attrColorValue="#085186"/>
 	</renderingAttribute>
 	<renderingAttribute name="glacierTextHaloColor">
-<!--		<case nightMode="true" attrColorValue="#000000"/>-->
+		<!--		<case nightMode="true" attrColorValue="#000000"/>-->
 		<case attrColorValue="$glacierColor"/>
 	</renderingAttribute>
 	<renderingAttribute name="craterTextColor">
@@ -1074,7 +1060,7 @@
 		<case nightMode="true" attrColorValue="#cccccc"/>
 		<case attrColorValue="#333333"/>
 	</renderingAttribute>
-	
+
 
 	<renderingConstant name="waterTextHaloRadiusDay" value="1"/>
 	<renderingAttribute name="waterTextColor">
@@ -1548,7 +1534,7 @@
 	</renderingAttribute>
 
 	<order>
-	<!-- Point -->
+		<!-- Point -->
 		<switch>
 			<switch area="false" point="true" objectType="1" order="128">
 				<!-- point has order 128 -->
@@ -1606,7 +1592,7 @@
 					</case>
 					<apply_if layer="-1" order="-1"/>
 				</switch>
-				
+
 				<case tag="osmand_rungs" value="yes"/>
 				<case tag="ladder" value="yes"/>
 				<case tag="abandoned:railway" value="station"/>
@@ -1616,7 +1602,7 @@
 			</switch>
 
 
-		<!-- Polygon -->
+			<!-- Polygon -->
 			<switch area="true" point="false" addPoint="true" objectType="3" order="5">
 				<case tag="place" value="island" order="1"/>
 				<case tag="place" value="islet" order="1"/>
@@ -1656,7 +1642,7 @@
 					<case tag="area:highway" value="road"/>
 					<case tag="area:highway" value="unclassified"/>
 					<case tag="area:highway" value="service"/>
-	<!--				<case tag="highway" value="rest_area"/>-->
+					<!--				<case tag="highway" value="rest_area"/>-->
 					<case tag="area:highway" value="residential"/>
 					<case tag="area:highway" value="footway"/>
 					<case tag="area:highway" value="track"/>
@@ -1762,7 +1748,7 @@
 				<case tag="" value="" order="5"/>
 			</switch>
 
-		<!-- Line -->
+			<!-- Line -->
 			<switch area="false" objectType="2" order="80">
 				<!-- default line -->
 				<case layer="-1" tag="" value="" order="11"/>
@@ -2124,7 +2110,7 @@
 			</switch>
 			<switch>
 				<switch textColor="$residentialTextColor" textHaloRadius="$textHaloRadius" textHaloColor="$residentialRoadColor">
-<!--					<case tag="highway" value="road" textOrder="120"/>-->
+					<!--					<case tag="highway" value="road" textOrder="120"/>-->
 					<case minzoom="16" tag="area:highway" value="road" textWrapWidth="25" textOrder="121"/>
 					<case minzoom="16" tag="area:highway" value="unclassified" intersectsWith="any" textWrapWidth="25" textOrder="123"/>
 					<case tag="highway" value="residential" textOrder="124"/>
@@ -2138,7 +2124,7 @@
 					<case tag="highway" value="living_street" textOrder="130"/>
 					<case tag="highway" value="escape" textOrder="130"/>
 				</switch>
-<!--				<switch textHaloRadius="$textHaloRadius" textColor="$serviceTextColor" textHaloColor="$serviceTextHaloColor" textOrder="130">
+				<!--				<switch textHaloRadius="$textHaloRadius" textColor="$serviceTextColor" textHaloColor="$serviceTextHaloColor" textOrder="130">
 					<case tag="highway" value="rest_area"/>
 					<apply_if engine_v1="false" textDy="0"/>
 				</switch>
@@ -2755,7 +2741,7 @@
 				<case tag="disused:building" value=""/>
 				<case tag="building" value="" nameTag="" nameTag2="addr:housenumber"/>
 				<case tag="building" value="" nameTag="addr:housename" nameTag2="addr:housenumber"/>
-				<case tag="building" value="" nameTag="addr:housenumber" />
+				<case tag="building" value="" nameTag="addr:housenumber"/>
 				<apply_if maxzoom="17" textSize="13" textMinDistance="40" intersectionMargin="20"/>
 				<apply_if minzoom="18" textSize="15"/>
 				<apply_if engine_v1="true" textDy="7"/>
@@ -2858,12 +2844,12 @@
 						<case tag="region:type" value="mountain_area" nameTag=""/>
 						<case tag="natural" value="plateau" nameTag=""/>
 						<apply textHaloRadius="5" textOrder="33" textDy="0"/>
-						<apply_if minzoom="6" maxzoom="6" textSize="8" />
-						<apply_if minzoom="7" maxzoom="7" textSize="10" />
-						<apply_if minzoom="8" maxzoom="8" textSize="13" />
-						<apply_if minzoom="10" maxzoom="10" textSize="15" />
-						<apply_if minzoom="11" maxzoom="11" textSize="18" />
-						<apply_if minzoom="12" textSize="20" />
+						<apply_if minzoom="6" maxzoom="6" textSize="8"/>
+						<apply_if minzoom="7" maxzoom="7" textSize="10"/>
+						<apply_if minzoom="8" maxzoom="8" textSize="13"/>
+						<apply_if minzoom="10" maxzoom="10" textSize="15"/>
+						<apply_if minzoom="11" maxzoom="11" textSize="18"/>
+						<apply_if minzoom="12" textSize="20"/>
 					</switch>
 					<case minzoom="13" textSize="14" tag="natural" value="crater" textColor="$craterTextColor"/>
 					<case minzoom="14" textSize="14" tag="natural" value="crevasse" textColor="$craterTextColor" textBold="false"/>
@@ -2911,7 +2897,7 @@
 				<apply_if nightMode="true" textColor="#eeeeee"/>
 			</switch>
 			<case minzoom="9" tag="natural" value="cape" textSize="12" textColor="$capeTextColor" textHaloColor="$waterTextHaloColor" textWrapWidth="25" textHaloRadius="1" textItalic="true" textOrder="237">
-			
+
 				<apply_if engine_v1="true" textDy="9"/>
 			</case>
 			<!-- Aeroway -->
@@ -3131,7 +3117,7 @@
 				<switch>
 					<case tag="public_transport" value="platform" nameTag="" nameTag2="local_ref"/>
 					<case tag="public_transport" value="platform" nameTag="local_ref"/>
-					<apply textOrder="73" textOnPath="true" />
+					<apply textOrder="73" textOnPath="true"/>
 					<apply_if additional="disused=yes" textColor="#888888"/>
 				</switch>
 				<apply maxzoom="16" textSize="11"/>
@@ -3217,7 +3203,7 @@
 					<case minzoom="15" tag="landuse" value="brownfield"/>
 					<apply textColor="$landuseManmadeFadedTextColor"/>
 				</switch>
-<!--				<apply_if engine_v1="true" textDy="9"/>-->
+				<!--				<apply_if engine_v1="true" textDy="9"/>-->
 				<apply_if lessDetailed="true" maxzoom="15" disable="true"/>
 			</switch>
 			<switch textSize="11" nameTag="" textColor="$manMadeTextColor" textHaloRadius="$textHaloRadius" textHaloColor="$defaultTextHaloColor" textWrapWidth="25" textOrder="162">
@@ -3362,11 +3348,11 @@
 				<case showCycleNodeNetworkRoutes="true" tag="node_network_point" value="lcn" nameTag="lcn_ref" textOrder="37"/>
 				<case showCycleRoutes="true" tag="node_network_point" value="multiple" nameTag="lcn_ref" textOrder="37"/>
 				<case showCycleNodeNetworkRoutes="true" tag="node_network_point" value="multiple" nameTag="lcn_ref" textOrder="37"/>
-				<case showCycleRoutes="true" tag="node_network_point" value="rcn"  nameTag="rcn_ref" textOrder="38"/>
+				<case showCycleRoutes="true" tag="node_network_point" value="rcn" nameTag="rcn_ref" textOrder="38"/>
 				<case showCycleNodeNetworkRoutes="true" tag="node_network_point" value="rcn" nameTag="rcn_ref" textOrder="38"/>
 				<case showCycleRoutes="true" tag="node_network_point" value="multiple" nameTag="rcn_ref" textOrder="38"/>
 				<case showCycleNodeNetworkRoutes="true" tag="node_network_point" value="multiple" nameTag="rcn_ref" textOrder="38"/>
-				<case showCycleRoutes="true" tag="node_network_point" value="ncn"  nameTag="ncn_ref" textOrder="39"/>
+				<case showCycleRoutes="true" tag="node_network_point" value="ncn" nameTag="ncn_ref" textOrder="39"/>
 				<case showCycleNodeNetworkRoutes="true" tag="node_network_point" value="ncn" nameTag="ncn_ref" textOrder="39"/>
 				<case showCycleRoutes="true" tag="node_network_point" value="multiple" nameTag="ncn_ref" textOrder="39"/>
 				<case showCycleNodeNetworkRoutes="true" tag="node_network_point" value="multiple" nameTag="ncn_ref" textOrder="39"/>
@@ -3644,21 +3630,21 @@
 
 		<switch shield="white_round_shield">
 			<switch iconOrder="70">
-<!--				<case minzoom="18" tag="tourism" value="artwork" icon="tourism_artwork" iconOrder="69"/>
+				<!--				<case minzoom="18" tag="tourism" value="artwork" icon="tourism_artwork" iconOrder="69"/>
 				<case minzoom="16" tag="tourism" value="museum" icon="tourism_museum"/>-->
 				<case minzoom="16" tag="man_made" value="geoglyph" icon="topo_geoglyph"/>
 				<case minzoom="16" tag="historic" value="ship" icon="topo_ship"/>
 				<case minzoom="16" tag="historic" value="boundary_stone" icon="topo_boundary_stone"/>
 				<case minzoom="17" tag="historic" value="milestone" icon="topo_milestone"/>
-<!--				<case minzoom="15" tag="tourism" value="theme_park" icon="tourism_theme_park"/>-->
-<!--				<case minzoom="15" tag="tourism" value="zoo" icon="zoo"/>-->
+				<!--				<case minzoom="15" tag="tourism" value="theme_park" icon="tourism_theme_park"/>-->
+				<!--				<case minzoom="15" tag="tourism" value="zoo" icon="zoo"/>-->
 				<case minzoom="16" tag="historic" value="aircraft" icon="topo_aircraft"/>
 				<case minzoom="16" tag="historic" value="tank" icon="topo_tank"/>
 				<case minzoom="16" tag="highway" value="trailhead" icon="topo_trailhead"/>
 			</switch>
 			<case minzoom="15" tag="attraction" value="big_wheel" icon="topo_big_wheel"/>
 
-<!--			<case minzoom="16" tag="natural" value="beach" icon="beach" iconOrder="79"/>-->
+			<!--			<case minzoom="16" tag="natural" value="beach" icon="beach" iconOrder="79"/>-->
 
 			<switch iconOrder="158">
 				<case minzoom="16" tag="historic" value="tomb" icon="topo_tomb" iconOrder="85"/>
@@ -3672,7 +3658,7 @@
 				<apply icon="cross" shield="cross_shield" iconOrder="95"/>
 			</switch>
 			<case minzoom="14" tag="building" value="pyramid" icon="topo_building_pyramid" iconOrder="5"/>
-<!--			<case minzoom="16" tag="historic" value="battlefield" icon="historic_battlefield"/>-->
+			<!--			<case minzoom="16" tag="historic" value="battlefield" icon="historic_battlefield"/>-->
 			<case minzoom="16" tag="historic" value="technical_monument" icon="topo_technical_monument" iconOrder="85"/>
 			<case minzoom="16" tag="historic" value="archaeological_site" icon="topo_archaeological_site" iconVisibleSize="24" iconOrder="85"/>
 			<case minzoom="16" tag="geological" value="palaeontological_site" icon="topo_palaeontological_site" iconOrder="85"/>
@@ -3765,11 +3751,11 @@
 			<case minzoom="12" tag="railway" value="station"/>
 			<case minzoom="13" tag="railway" value="yard"/>
 			<apply icon="topo_railway_station_small" iconVisibleSize="8"/>
-<!--			<apply_if additional="disused=yes" icon="railway_station_small_disused"/>
+			<!--			<apply_if additional="disused=yes" icon="railway_station_small_disused"/>
 			<apply_if additional="station=subway" icon="railway_station_subway_small"/>-->
 		</switch>
 
-<!--		<case minzoom="13" tag="abandoned:railway" value="station">
+		<!--		<case minzoom="13" tag="abandoned:railway" value="station">
 			<case maxzoom="15" icon="railway_station_small_disused"/>
 			<case minzoom="16" icon="railway_station_disused" shield="white_gray_square_shield">
 				<apply_if nightMode="true" shield="gray_gray_square_shield"/>
@@ -3801,15 +3787,12 @@
 		</case>
 
 		<!-- Car profile priority icons -->
-		<switch baseAppMode="car" iconOrder="80">
-		</switch>
+		<switch baseAppMode="car" iconOrder="80"></switch>
 		<!-- Bicycle profile priority icons -->
-		<switch baseAppMode="bicycle" iconOrder="80">
-		</switch>
+		<switch baseAppMode="bicycle" iconOrder="80"></switch>
 		<!-- Pedestrian profile priority icons -->
 		<switch baseAppMode="pedestrian">
-			<switch iconOrder="81">
-			</switch>
+			<switch iconOrder="81"></switch>
 		</switch>
 
 		<!-- Barriers -->
@@ -3825,7 +3808,7 @@
 						<case minzoom="14" tag="barrier" value="bump_gate" icon="barrier_bump_gate" shield="barrier_bump_gate_shield"/>
 						<case minzoom="14" tag="barrier" value="bus_trap" icon="barrier_bus_trap" shield="barrier_bus_trap_shield"/>
 						<case minzoom="14" tag="barrier" value="chain" icon="barrier_chain" shield="barrier_chain_shield"/>
-	<!--					<case minzoom="14" tag="barrier" value="height_restrictor" icon="barrier_height_restrictor" shield="barrier_height_restrictor_shield"/>-->
+						<!--					<case minzoom="14" tag="barrier" value="height_restrictor" icon="barrier_height_restrictor" shield="barrier_height_restrictor_shield"/>-->
 						<case minzoom="14" tag="barrier" value="cycle_barrier" icon="barrier_cycle_barrier" shield="barrier_cycle_barrier_shield"/>
 						<case minzoom="14" tag="barrier" value="motorcycle_barrier" icon="barrier_motorcycle_barrier" shield="barrier_motorcycle_barrier_shield"/>
 						<case minzoom="14" tag="barrier" value="stile" icon="barrier_stile" shield="barrier_stile_shield"/>
@@ -3837,10 +3820,8 @@
 						<case minzoom="14" tag="barrier" value="bollard" icon="barrier_bollard" shield="barrier_bollard_shield"/>
 						<case minzoom="14" tag="barrier" value="block" icon="barrier_block" shield="topo_barrier_block_shield"/>
 						<case minzoom="15" tag="barrier" value="jersey_barrier" icon="barrier_colored_jersey_barrier" shield="barrier_jersey_barrier_shield"/>
-						<apply_if minzoom="14" maxzoom="14" icon="barrier_small_black_bold_2" shield="" iconVisibleSize="0">
-						</apply_if>
-						<apply_if minzoom="15" maxzoom="15" icon="barrier_small_black_bold_1" shield="" iconVisibleSize="0">
-						</apply_if>
+						<apply_if minzoom="14" maxzoom="14" icon="barrier_small_black_bold_2" shield="" iconVisibleSize="0"></apply_if>
+						<apply_if minzoom="15" maxzoom="15" icon="barrier_small_black_bold_1" shield="" iconVisibleSize="0"></apply_if>
 					</switch>
 					<switch>
 						<case minzoom="14" tag="barrier" value="debris" icon="barrier_colored_debris" shield="topo_barrier_debris_shield"/>
@@ -3911,7 +3892,7 @@
 		</switch>
 
 		<switch>
-<!--			<switch shield="white_gray_square_shield">
+			<!--			<switch shield="white_gray_square_shield">
 				<case minzoom="16" tag="amenity" value="drinking_water" icon="amenity_drinking_water"/>
 				<case minzoom="15" tag="man_made" value="water_well" icon="man_made_water_well"/>
 				<apply_if nightMode="true" shield="gray_gray_square_shield"/>
@@ -3922,7 +3903,7 @@
 			<case minzoom="18" tag="amenity" value="bench" icon="bench" shield="bench_shield" iconOrder="70"/>
 			<case minzoom="18" tag="amenity" value="lounger" icon="lounger" shield="lounger_shield" iconOrder="70"/>
 
-<!--			<case minzoom="14" tag="natural" value="hot_spring" icon="natural_hot_spring" shield="white_blue_square_shield"/>
+			<!--			<case minzoom="14" tag="natural" value="hot_spring" icon="natural_hot_spring" shield="white_blue_square_shield"/>
 			<case minzoom="14" tag="natural" value="geyser" icon="natural_geyser" shield="white_blue_square_shield">
 			</case>-->
 			<apply_if maxzoom="16" additional="drinking_water=no" icon=""/>
@@ -4103,7 +4084,7 @@
 				<switch minzoom="14">
 					<case tag="area:highway" value="service"/>
 					<case minzoom="16" tag="area:highway" value="cycleway"/>
-	<!--				<case tag="highway" value="rest_area"/>-->
+					<!--				<case tag="highway" value="rest_area"/>-->
 					<apply color="$serviceHighwayAreaColor" color_2="$serviceHighwayAreaShadowColor" strokeWidth_2="$highwayShadowRadius"/>
 					<apply_if nightMode="true" shadowRadius="$highwayShadowRadiusNight"/>
 				</switch>
@@ -4195,7 +4176,7 @@
 					<case minzoom="11" tag="natural" value="beach" color_0="$beachColor" shader="topo_sand"/>
 					<case minzoom="11" tag="natural" value="sand" color_0="$sandColor" shader="topo_sand"/>
 					<switch minzoom="13">
-					<!-- Special nature with shaders -->
+						<!-- Special nature with shaders -->
 						<case tag="natural" value="scree"/>
 						<case tag="geological" value="moraine"/>
 						<apply shader="topo_scree" color_0="$screeColor"/>
@@ -4297,10 +4278,10 @@
 						<case minzoom="9" maxzoom="11" strokeWidth_2="1.5" pathEffect_2="2_3"/>
 						<case minzoom="11" strokeWidth_2="1.5" pathEffect_2="3_5"/>
 						<apply color="$glacierColor" color_2="$glacierStrokeColor"/>
-<!--						<apply_if minzoom="7" shader="topo_glacier"/>-->
+						<!--						<apply_if minzoom="7" shader="topo_glacier"/>-->
 					</switch>
 
-			<!--		<case minzoom="10" tag="natural" value="heath" color="$grassColor">
+					<!--		<case minzoom="10" tag="natural" value="heath" color="$grassColor">
 						<apply_if minzoom="14" shader="topo_heath"/>
 						<apply_if nightMode="true" shader=""/>
 					</case>-->
@@ -4393,7 +4374,7 @@
 						<case additional="resource=salt" shader="topo_quarry_salt" color_2="#1a7fc7"/>
 						<case color="#3398725D"/>
 					</case>
-	<!--				<case minzoom="12" tag="historic" value="quarry" shader="quarry3_abandoned">
+					<!--				<case minzoom="12" tag="historic" value="quarry" shader="quarry3_abandoned">
 						<apply_if nightMode="true" shader="quarry3_abandoned_night"/>
 					</case>-->
 
@@ -4583,7 +4564,7 @@
 			<apply color="$defaultColor"/>
 		</switch>
 
-<!--		<switch minzoom="13">
+		<!--		<switch minzoom="13">
 			<case tag="barrier" value="fence"/>
 			<case tag="barrier" value="wall"/>
 			<apply color="$null" color_2="#333333"/>
@@ -4759,7 +4740,7 @@
 						<case tag="highway" value="motorway" color="$motorwayRoadColor" color__1="$motorwayRoadColor" color__2="$motorwayRoadShadowColor" color_0="$motorwayRoadShadowColor" shadowColor="$motorwayRoadShadowColor"/>
 						<case tag="highway" value="trunk" color="$trunkRoadColor" color__1="$trunkRoadColor" color__2="$trunkRoadShadowColor" color_0="$trunkRoadShadowColor" shadowColor="$trunkRoadShadowColor"/>
 						<case tag="highway" value="primary" color="$primaryRoadColor" color__1="$primaryRoadColor" color_0="$primaryRoadShadowColor" shadowColor="$primaryRoadShadowColor"/>
-/						<case tag="highway" value="secondary" color="$secondaryRoadColor" color__1="$secondaryRoadColor" color_0="$secondaryRoadShadowColor" shadowColor="$secondaryRoadShadowColor"/>
+						<case tag="highway" value="secondary" color="$secondaryRoadColor" color__1="$secondaryRoadColor" color_0="$secondaryRoadShadowColor" shadowColor="$secondaryRoadShadowColor"/>
 						<apply cap="ROUND" shadowRadius="$highwayShadowRadius">
 							<case maxzoom="14" strokeWidth="4:4" strokeWidth_3="4:4"/>
 							<case maxzoom="15" strokeWidth="5.5:5.5" strokeWidth_3="5.5:5.5"/>
@@ -4846,7 +4827,7 @@
 							<apply_if nightMode="true" shadowRadius="$highwayShadowRadiusNight"/>
 						</apply>
 						<!-- Smoothness, surface, access -->
-	<!--					<apply_if lessDetailed="false" minzoom="14" maxzoom="14" strokeWidth_2="1.9:1.9" strokeWidth_3="1.9:1.9"/>
+						<!--					<apply_if lessDetailed="false" minzoom="14" maxzoom="14" strokeWidth_2="1.9:1.9" strokeWidth_3="1.9:1.9"/>
 						<apply_if minzoom="15" maxzoom="15" strokeWidth_2="2.5:2.5" strokeWidth_3="2.5:2.5"/>
 						<apply_if minzoom="16" maxzoom="16" strokeWidth_2="3:3" strokeWidth_3="3:3"/>
 						<apply_if minzoom="17" maxzoom="17" strokeWidth_2="4:4" strokeWidth_3="4:4"/>
@@ -4862,7 +4843,8 @@
 						<case maxzoom="18" strokeWidth="5:5" strokeWidth_0="5:5" pathEffect="7_12" strokeWidth__1="5.7:6.7"/>
 						<case minzoom="19" strokeWidth="6:6" strokeWidth_0="6:6" pathEffect="7_12" strokeWidth__1="6.8:7.7"/>
 					</apply_if>
-					<apply_if minzoom="16"> <!-- for new OpenGL engine only -->
+					<apply_if minzoom="16">
+						<!-- for new OpenGL engine only -->
 						<apply_if additional="oneway=yes" pathIcon="$highwayOnewayIcon" pathIconStep="70"/>
 						<apply_if additional="oneway=-1" pathIcon="$highwayOnewayReverseIcon" pathIconStep="70"/>
 					</apply_if>
@@ -4920,7 +4902,8 @@
 								<case minzoom="19" strokeWidth_0="13:13"/>
 							</apply_if>
 						</apply>
-						<apply_if minzoom="16"> <!-- for new OpenGL engine only -->
+						<apply_if minzoom="16">
+							<!-- for new OpenGL engine only -->
 							<apply_if maxzoom="16" additional="oneway=yes" pathIcon="$highwayOnewayIcon" pathIconStep="70"/>
 							<apply_if minzoom="17" additional="oneway=yes" pathIcon="$highwayOnewayIconBig" pathIconStep="70"/>
 							<apply_if maxzoom="16" additional="oneway=-1" pathIcon="$highwayOnewayReverseIcon" pathIconStep="70"/>
@@ -4977,7 +4960,8 @@
 								<case minzoom="19" strokeWidth_0="13:13"/>
 							</apply_if>
 						</apply>
-						<apply_if minzoom="16"> <!-- for new OpenGL engine only -->
+						<apply_if minzoom="16">
+							<!-- for new OpenGL engine only -->
 							<apply_if maxzoom="16" additional="oneway=yes" pathIcon="$highwayOnewayIcon" pathIconStep="70"/>
 							<apply_if minzoom="17" additional="oneway=yes" pathIcon="$highwayOnewayIconBig" pathIconStep="70"/>
 							<apply_if maxzoom="16" additional="oneway=-1" pathIcon="$highwayOnewayReverseIcon" pathIconStep="70"/>
@@ -5024,7 +5008,8 @@
 						<case maxzoom="17" strokeWidth="4:4" shadowRadius="2"/>
 						<case minzoom="18" strokeWidth="5:5" shadowRadius="2"/>
 						<apply color="$racewayColor" cap="ROUND" shadowColor="$racewayStrokeColor"/>
-						<apply_if minzoom="17"> <!-- for new OpenGL engine only -->
+						<apply_if minzoom="17">
+							<!-- for new OpenGL engine only -->
 							<apply_if additional="oneway=yes" pathIcon="oneway_blue" pathIconStep="70"/>
 							<apply_if additional="oneway=-1" pathIcon="oneway_blue_reverse" pathIconStep="70"/>
 						</apply_if>
@@ -5067,7 +5052,7 @@
 						<switch lessDetailed="false">
 							<case maxzoom="13" strokeWidth="0.7" strokeWidth_3="0.7" shadowRadius=":1"/>
 							<case minzoom="14" maxzoom="14" strokeWidth="1:1" strokeWidth_3="1:1" shadowRadius=":1">
-	<!--							<apply_if tag="highway" value="pedestrian" shadowColor="$pedestrianRoadShadowColor"/>-->
+								<!--							<apply_if tag="highway" value="pedestrian" shadowColor="$pedestrianRoadShadowColor"/>-->
 							</case>
 						</switch>
 						<case minzoom="15" maxzoom="15" strokeWidth="2:2" strokeWidth_3="2:2"/>
@@ -5100,7 +5085,8 @@
 							<case minzoom="19" strokeWidth_0="8:12"/>
 						</apply_if>
 					</apply>
-					<apply_if engine_v1="false" minzoom="16"> <!-- for new OpenGL engine only -->
+					<apply_if engine_v1="false" minzoom="16">
+						<!-- for new OpenGL engine only -->
 						<apply_if additional="oneway=yes" pathIcon="$highwayOnewayIcon" pathIconStep="70"/>
 						<apply_if additional="oneway=-1" pathIcon="$highwayOnewayReverseIcon" pathIconStep="70"/>
 					</apply_if>
@@ -5118,7 +5104,7 @@
 			</switch>
 			<apply>
 				<switch hideAccess="false" minzoom="13" cap_3="BUTT">
-<!--					<switch>
+					<!--					<switch>
 						<case baseAppMode="bicycle" additional="toll:bicycle=yes" color_3="$tollColor"/>
 						<case baseAppMode="bicycle" additional="toll:bicycle=no"/>
 						<case baseAppMode="car" additional="toll:motorcar=yes" color_3="$tollColor"/>
@@ -5296,7 +5282,7 @@
 						<case additional="osmand_highway_integrity=9" pathEffect_5="1_5"/>
 						<case additional="osmand_highway_integrity=10" pathEffect_5="1_5"/>
 					</apply_if>
-<!--					<apply_if surfaceIntegrity="false">
+					<!--					<apply_if surfaceIntegrity="false">
 						<apply_if additional="trail_visibility=bad">
 							<case maxzoom="14" pathEffect_5="2_6"/>
 							<case minzoom="15" pathEffect_5="2_9"/>
@@ -5340,7 +5326,8 @@
 				</apply_if>
 			</switch>
 			<apply_if engine_v1="true" onewayArrowsColor="$trackPathHighwayOnewayArrowsColor"/>
-			<apply_if engine_v1="false" minzoom="17"> <!-- for new OpenGL engine only -->
+			<apply_if engine_v1="false" minzoom="17">
+				<!-- for new OpenGL engine only -->
 				<apply_if additional="oneway=yes" pathIcon="$highwayOnewayIcon" pathIconStep="70"/>
 				<apply_if additional="oneway=-1" pathIcon="$highwayOnewayReverseIcon" pathIconStep="70"/>
 			</apply_if>
@@ -5476,7 +5463,8 @@
 						<case minzoom="18" strokeWidth="2:2" strokeWidth_2="3:3" pathEffect_2="1_2_1_37"/>
 					</apply_if>
 				</case>
-				<apply_if engine_v1="false" minzoom="14" pathIcon="oneway_blue_big" pathIconStep="70"> <!-- for new OpenGL engine only -->
+				<apply_if engine_v1="false" minzoom="14" pathIcon="oneway_blue_big" pathIconStep="70">
+					<!-- for new OpenGL engine only -->
 					<apply_if additional="oneway=-1" pathIcon="oneway_reverse_blue_big" pathIconStep="70"/>
 					<apply_if additional="oneway=no" pathIcon=""/>
 				</apply_if>
@@ -5488,7 +5476,8 @@
 					<case tag="aerialway" value="t-bar"/>
 					<case tag="aerialway" value="j-bar"/>
 					<case tag="aerialway" value="platter"/>
-					<apply_if engine_v1="false" minzoom="14" pathIcon="oneway_blue_big" pathIconStep="70"> <!-- for new OpenGL engine only -->
+					<apply_if engine_v1="false" minzoom="14" pathIcon="oneway_blue_big" pathIconStep="70">
+						<!-- for new OpenGL engine only -->
 						<apply_if additional="oneway=-1" pathIcon="oneway_reverse_blue_big" pathIconStep="70"/>
 						<apply_if additional="oneway=no" pathIcon=""/>
 					</apply_if>
@@ -5628,7 +5617,8 @@
 					<case baseAppMode="car" additional="vehicle=yes"/>
 					<case baseAppMode="car" additional="vehicle=designated"/>
 					<case baseAppMode="car" additional="motor_vehicle=yes"/>
-					<case baseAppMode="car" additional="motor_vehicle=designated"/>-
+					<case baseAppMode="car" additional="motor_vehicle=designated"/>
+					-
 					<case baseAppMode="pedestrian" additional="foot=yes"/>
 					<case baseAppMode="pedestrian" additional="foot=designated"/>
 					<case baseAppMode="bicycle" additional="bicycle=yes"/>
@@ -5684,7 +5674,7 @@
 		<switch>
 			<switch minzoom="13">
 				<case tag="waterway" value="stream"/>
-/				<case tag="waterway" value="wadi">
+				<case tag="waterway" value="wadi">
 					<case maxzoom="13" pathEffect="4.5_3"/>
 					<case maxzoom="14" pathEffect="6_4"/>
 					<case maxzoom="16" pathEffect="8_5"/>
@@ -5835,23 +5825,23 @@
 		</switch>
 
 		<switch engine_v1="false" strokeWidth="1">
-			 <case minzoom="14" tag="natural" value="cliff" color="#148c14" pathIcon="stroke_darkgreen" pathIconStep="10"/>
-			 <case minzoom="16" tag="natural" value="slope" color="#44bd6819" pathIcon="stroke_brown_right" pathIconStep="10">
+			<case minzoom="14" tag="natural" value="cliff" color="#148c14" pathIcon="stroke_darkgreen" pathIconStep="10"/>
+			<case minzoom="16" tag="natural" value="slope" color="#44bd6819" pathIcon="stroke_brown_right" pathIconStep="10">
 				<apply_if noPolygons="true" color="#44C39F7D"/>
-			 </case>
-			 <case minzoom="16" tag="natural" value="earth_bank" color="#88949494" pathIcon="stroke_gray" pathIconStep="10"/>
-			 <case minzoom="16" tag="man_made" value="embankment" color="#88949494" pathIcon="stroke_gray" pathIconStep="10"/>
+			</case>
+			<case minzoom="16" tag="natural" value="earth_bank" color="#88949494" pathIcon="stroke_gray" pathIconStep="10"/>
+			<case minzoom="16" tag="man_made" value="embankment" color="#88949494" pathIcon="stroke_gray" pathIconStep="10"/>
 		</switch>
 		<switch noPolygons="false" minzoom="15" color="#33ffffff" color_0="#77999999" color__1="#44000000" strokeWidth="3:3" strokeWidth_0="4:4" cap="ROUND" cap_0="ROUND">
 			<case tag="man_made" value="dyke"/>
 			<case engine_v1="true" tag="man_made" value="embankment"/>
 			<case tag="embankment" value="yes"/>
 			<apply_if nightMode="true" color="#33000000" color_0="#77999999" color__1="#44ffffff"/>
-			<apply_if minzoom="15" maxzoom="15" strokeWidth__1="7:7" pathEffect__1="1_11" />
+			<apply_if minzoom="15" maxzoom="15" strokeWidth__1="7:7" pathEffect__1="1_11"/>
 			<apply_if minzoom="16" maxzoom="16" strokeWidth__1="11:11" pathEffect__1="1_16"/>
 			<apply_if minzoom="17" maxzoom="17" strokeWidth__1="13:13" pathEffect__1="1_21"/>
 			<apply_if minzoom="18" strokeWidth__1="15:15" pathEffect__1="1_25"/>
-			<apply_if engine_v1="false" color="$null" strokeWidth_0="2:2" />
+			<apply_if engine_v1="false" color="$null" strokeWidth_0="2:2"/>
 		</switch>
 
 
@@ -5879,11 +5869,11 @@
 		</switch>
 		<case minzoom="11" tag="natural" value="ridge" color="$ridgeColor" color_2="$ridgeColor">
 			<case maxzoom="11" strokeWidth="1"/>
--			<case maxzoom="12" strokeWidth="1.5"/>
--			<case maxzoom="13" strokeWidth="1.8"/>
--			<case maxzoom="14" strokeWidth="2.4"/>
--			<case maxzoom="15" strokeWidth="1.6:1.6"/>
--			<case minzoom="16" strokeWidth="2:2"/>
+			<case maxzoom="12" strokeWidth="1.5"/>
+			<case maxzoom="13" strokeWidth="1.8"/>
+			<case maxzoom="14" strokeWidth="2.4"/>
+			<case maxzoom="15" strokeWidth="1.6:1.6"/>
+			<case minzoom="16" strokeWidth="2:2"/>
 		</case>
 		<case noPolygons="false" minzoom="14" tag="natural" value="tree_row" color="#277c27" color_2="#ffffff" cap="ROUND" cap_2="ROUND">
 			<case lessDetailed="false" maxzoom="14" strokeWidth="1:1" pathEffect="1_4" strokeWidth_2="0.5:0.5" pathEffect_2="1_5"/>
@@ -5980,7 +5970,7 @@
 				<case maxzoom="14" strokeWidth="2:2" strokeWidth_2="2:2" strokeWidth__2="5:5"/>
 				<case maxzoom="16" strokeWidth="3:3" strokeWidth_2="3:3" strokeWidth__2="7:7"/>
 				<case maxzoom="17" strokeWidth="4:4" strokeWidth_2="4:4" strokeWidth__2="9:9" strokeWidth__1="9:9"/>
-				<case minzoom="18" strokeWidth="5:5" strokeWidth_2="5:5" strokeWidth__2="12:12"  strokeWidth__1="12:12"/>
+				<case minzoom="18" strokeWidth="5:5" strokeWidth_2="5:5" strokeWidth__2="12:12" strokeWidth__1="12:12"/>
 				<apply_if minzoom="13" color="$cycleRouteColor"/>
 				<apply>
 					<switch>
