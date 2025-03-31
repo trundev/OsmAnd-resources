@@ -8,7 +8,7 @@
 		Differences of the "Touring View" vs. the "Default" Renderer:
 		In Touring View:
 			* Some road and track types are already shown at lower zooms (essential for travel and orienteering)
-			* The road colors allow unambiguous distinction between all highway/road/track types 
+			* The road colors allow unambiguous distinction between all highway/road/track types
 			* The road colors are closer aligned with professional drivers' road atlas schemes
 			* The road visibility is increased to ease outdoor, driving, and navigation use
 			* The route and gpx visibility is increased
@@ -87,14 +87,14 @@
 			dash-dotted line   (dash+dot/gaps=7/4): tracktype not specified
 		- Paths are rendered as thin black lines:
 			long dashes:       sac_scale not specified or sac_scale = hiking
-			short dashes:      sac_scale = mountain_hiking 
+			short dashes:      sac_scale = mountain_hiking
 			dotted line:       sac_scale = demanding_mountain_hiking and above
 	-->
 
 	<!-- Description blueprint:
 		<string name="plugin_touringview_name">Touring view map style</string>
 		<string name="plugin_touringview_descr">Activating this view changes OsmAnd\'s map style to \'Touring view\', this is a general purpose high-detail, high contrast view for travelers and professional drivers.
-			\n\nIt provides at any given map zoom the maximum amount of travel details available, in particular depicts all roads, tracks, paths, and orientation marks. 
+			\n\nIt provides at any given map zoom the maximum amount of travel details available, in particular depicts all roads, tracks, paths, and orientation marks.
 			\n\nIt unambiguously distinguishes all road types by color coding, which is useful when e.g. driving large vehicles.
 			\n\nAlso features outdoor touring options like the original SAC Alpine hiking trail coding.
 			\n\nAll other features are handled as in the OsmAnd default map style.
@@ -115,7 +115,7 @@
 	<renderingProperty attr="alpineHikingScaleScheme" name="Alpine hiking scale scheme" description="Render paths according to SAC/CAI scale"
 		type="string" possibleValues="sacScale,caiScale" defaultValueDescription="disabled" category="other"/>
 
-<!-- These route features have now moved to the default renderer
+	<!-- These route features have now moved to the default renderer
 	<renderingProperty attr="showCycleRoutes" name="Show cycle routes" description="Show long distance cycle routes"
 		type="boolean" possibleValues="" category="routes"/>
 
@@ -128,7 +128,7 @@
 	<renderingProperty attr="horseRoutes" name="Horse routes" description="Horse routes"
 		type="boolean" possibleValues="" category="routes"/>
 -->
-    
+
 	<!-- The "Road atlas style" color options align with some conventional road atlas schemes. This was moved to default render, not any more supported in Touring view -->
 	<renderingProperty attr="roadStyle" category="ui_hidden" type="string"/>
 
@@ -293,7 +293,7 @@
 
 	<renderingConstant name="null" value="#00000000"/>
 
-<!--
+	<!--
 	<renderingConstant name="contourLineColor" value="#2Aff7c00"/>
 	<renderingConstant name="contourLineColor50m" value="#2Aea7300"/>
 -->
@@ -307,7 +307,7 @@
 	<renderingConstant name="surfaceGradeHorribleColor" value="#ff7f7f"/>
 	<renderingConstant name="surfaceGradeVeryHorribleColor" value="#fe5050"/>
 	<renderingConstant name="surfaceGradeImpassableColor" value="#ff1111"/>
-	
+
 	<!-- Surface colors copied unchanged from default renderer -->
 	<renderingAttribute name="surfaceAsphaltColor">
 		<case nightMode="true" attrColorValue="#eae6f3"/>
@@ -1376,7 +1376,7 @@
 						<apply_if minzoom="19" strokeWidth_3="6.5:6.5"/>
 					</switch>
 
-                    <switch minzoom="15" showAccess="true">
+					<switch minzoom="15" showAccess="true">
 						<switch baseAppMode="car" minzoom="15">
 							<switch>
 								<case additional="vehicle=private"/>
@@ -1520,7 +1520,7 @@
 		</switch>
 
 		<!-- Contour lines -->
-	<!-- This module has now moved to the default renderer
+		<!-- This module has now moved to the default renderer
 		<switch>
 			<case contourLines="11" tag="contour" value="elevation" minzoom="11" color="$contourLineColor" strokeWidth="1"/>
 			<case contourLines="12" tag="contour" value="elevation" minzoom="12" color="$contourLineColor" strokeWidth="1"/>
